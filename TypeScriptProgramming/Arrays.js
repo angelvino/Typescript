@@ -1,0 +1,51 @@
+// let ids:number[] = [100,200];//creating/declaring an array and assigning/initializing values to array in single
+// let values:number[];
+// values = [1,2,3,4,5,6];
+// let names:string[] = ["Sachin","Dravid","Dhoni","Sehwag","Yuvraj"];
+// // console.log(names[0]);
+// // console.log(names[1]);
+// // console.log(names[2]);
+// // console.log(names[3]);
+// // console.log(names[4]);
+// for(let i=0;i<names.length;i++)
+// {
+//     console.log(names[i])
+// }
+// names.push("Zaheer");
+// console.log("-----------------------")
+// for(let i=0;i<names.length;i++)
+// {
+//     console.log(names[i])
+// }
+// names.pop();
+// console.log("-----------------------")
+// for(let i=0;i<names.length;i++)
+// {
+//     console.log(names[i])
+// }
+// let twodim:number[][] = [ [1,2],[2,3],[4,5] ];
+// console.log(twodim[1][1]);
+// let muldim = [[1,2,3],[4,5,6],[7,8,9]]
+// console.log(muldim[0][0]);
+// let names:string[] = ["Sachin","Dravid","Dhoni","Sehwag","Yuvraj"];
+// for(let n of names)
+// {
+//     console.log(n);
+// }
+var muldim = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+// //rows
+// for(let i=0;i<muldim.length;i++)
+// {
+//     //col in a row
+//     for(let j=0;j<muldim[i].length;j++)
+//     {
+//         console.log(muldim[i][j]);
+//     }
+// }
+for (var _i = 0, muldim_1 = muldim; _i < muldim_1.length; _i++) {
+    var row = muldim_1[_i];
+    for (var _a = 0, row_1 = row; _a < row_1.length; _a++) {
+        var value = row_1[_a];
+        console.log(value);
+    }
+}
